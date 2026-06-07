@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Notes</title>
+    <link rel="stylesheet" href="dashbord.css">
+<body>
+    <div class="main">
+        <h1>Upload Notes📚</h1>
+        <input type="text" id="title" placeholder="Note Title">
+        <br><br>
+
+        <select id="subject">
+            <option value="">javaScript</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">Python</option>
+        </select>
+        <br><br>
+    
+        <input type="text" id="link" placeholder="PDF Link">
+        <br><br>
+
+        <button onclick="uploadNote()">Upload</button>
+    </div>
+    <script type="module" src="upload.js"></script>
+</body>
+</html>

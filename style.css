@@ -87,7 +87,57 @@ nav a {
 }
 /* ---------------------------------------login page---------------------------------------- */
 .login{
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    max-width: 90%;
+    margin: 150px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
     text-align: center;
+}
+.login input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.login button{
+    width: 100%;
+    border: none;
+    padding: 12PX;
+    background: #007bff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* ------------------------------------------signup page-------------------------------------- */
+.auth-box{
+  width: 400px;
+  max-width: 90%;
+  margin: 150px auto;
+  padding: 40px;
+  background: #fff;
+border-radius: 12px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+text-align: center;
+}
+.auth-box input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.auth-box button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius:6px;
+    cursor: pointer;
 }

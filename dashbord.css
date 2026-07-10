@@ -119,3 +119,11 @@ text-decoration:none;
 border-radius:8px;
 font-weight:600;
 }
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+.subjectFilter{
+    margin-top: 30px;
+    margin-right: 50px;
+}

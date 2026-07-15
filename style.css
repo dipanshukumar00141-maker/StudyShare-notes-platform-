@@ -141,3 +141,8 @@ text-align: center;
     border-radius:6px;
     cursor: pointer;
 }
+.brand{
+    text-align: center;
+    background:#007bff;
+    color: white;
+}
